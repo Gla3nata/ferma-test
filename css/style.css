@@ -121,7 +121,7 @@ a {
     position: absolute;
     height: 41.27px;
     width: 41.27px;
-    left: 80%;
+    left: 72%;
     top: 0%;
     border-radius: 50%;
 }
@@ -131,35 +131,22 @@ a {
     position: absolute;
     height: 41.27px;
     width: 41.27px;
-    left: 8%;
-    top: 50%;
+    left: 7%;
+    top: 55%;
     border-radius: 50%;
 }
 
 .ellipse5 {
     height: 48.36px;
     width: 48.36px;
-    left: 87%;
-    top: 78%;
+    left: 80%;
+    top: 98%;
     border-radius: 0px;
     background: #FD82C1;
     position: absolute;
     border-radius: 50%;
 }
 
-*/
-
-/*
-.phone {
-    position: absolute;
-    z-index: 4;
-    height: 650px;
-    width: 733px;
-    left: 681px;
-    top: 161px;
-    background: url(../img/kkk.png) center / cover no-repeat;
-}
-*/
 footer {
     display: flex;
     justify-content: space-between;
