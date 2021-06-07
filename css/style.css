@@ -13,7 +13,6 @@
     src: url(../fonts/montserrat-semibold.ttf);
 }
 
-
 body::before {
     content: '';
     position: fixed;
@@ -31,15 +30,6 @@ body::before {
             rgba(255, 255, 255, 0.9),
             rgba(255, 255, 255, 0.87)),
         url('../img/109%201.jpg') center / cover no-repeat;
-    ;
-    /*
-background: linear-gradient
-    (0deg, 
-        rgba(255, 255, 255, 0.17) 0%, 
-        rgba(255, 255, 255, 0.76) 32.92%, 
-        rgba(255, 255, 255, 0.9) 59.51%, 
-        rgba(255, 255, 255, 0.87) 103.7%);
-*/
 }
 
 body {
@@ -51,7 +41,8 @@ body {
     /*    background-color: antiquewhite;*/
 }
 
-a { margin:  7px;
+a {
+    margin: 7px;
     text-decoration: none;
     outline: none;
     background-color: transparent;
@@ -83,8 +74,6 @@ a { margin:  7px;
 */
 }
 
-
-
 .list {
     font-family: montserrat-medium;
     font-style: normal;
@@ -93,7 +82,6 @@ a { margin:  7px;
     line-height: 31px;
     letter-spacing: -0.41px;
     margin-bottom: 41px;
-
     color: #1F294A;
 }
 
@@ -125,43 +113,40 @@ a { margin:  7px;
     background-size: 266px, 394px, 311px;
     background-repeat: no-repeat;
     background-position: 26% 40%, 63% 60%, 60% 20%;
+    position: relative;
 }
 
-/*
 .ellipse7 {
     background: #00E9DE;
     position: absolute;
-    height: 266.16827392578125px;
-    width: 266.16827392578125px;
-    left: 804px;
-    top: 312.177734375px;
+    height: 41.27px;
+    width: 41.27px;
+    left: 80%;
+    top: 0%;
     border-radius: 50%;
-    z-index: 1;
 }
 
 .ellipse6 {
-    height: 394px;
-    width: 393px;
-    left: 896px;
-    top: 317px;
-    border-radius: 50%;
     background: #9DF3AC;
     position: absolute;
+    height: 41.27px;
+    width: 41.27px;
+    left: 8%;
+    top: 50%;
     border-radius: 50%;
-    z-index: 2;
 }
 
 .ellipse5 {
-    height: 311.91595458984375px;
-    width: 311.91595458984375px;
-    left: 937.083984375px;
-    top: 229px;
+    height: 48.36px;
+    width: 48.36px;
+    left: 87%;
+    top: 78%;
     border-radius: 0px;
     background: #FD82C1;
     position: absolute;
     border-radius: 50%;
-    z-index: 3;
 }
+
 */
 
 /*
