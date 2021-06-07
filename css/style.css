@@ -51,7 +51,7 @@ body {
     /*    background-color: antiquewhite;*/
 }
 
-a {
+a { margin:  7px;
     text-decoration: none;
     outline: none;
     background-color: transparent;
@@ -100,7 +100,7 @@ a {
 .download {
     display: block;
     fill: #A6A6A6;
-    margin-bottom: 17px;
+    margin-bottom: 9px;
 }
 
 .download:hover .button {
@@ -118,13 +118,13 @@ a {
 }
 
 .picture {
-    margin-bottom: 100px;
+    margin: 16px 0px 98px 23px;
     background-image: url('../img/Ellipse7.svg'),
         url('../img/Ellipse6.svg'),
         url('../img/Ellipse5.svg');
     background-size: 266px, 394px, 311px;
     background-repeat: no-repeat;
-    background-position: 25% 50%, 72% 60%, 65% 22%;
+    background-position: 26% 40%, 63% 60%, 60% 20%;
 }
 
 /*
