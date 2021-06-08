@@ -104,6 +104,7 @@ main {
     display: block;
     fill: #A6A6A6;
     margin-bottom: 9px;
+    width: 32%;
 }
 
 .download:hover .button {
@@ -213,10 +214,6 @@ footer {
         margin-bottom: 20px;
     }
 
-    .button {
-        width: 100%;
-    }
-
     .content {
         width: 100%;
     }
@@ -253,9 +250,5 @@ footer {
     .list {
         font-size: 18px;
         line-height: 18px;
-    }
-
-    .button {
-        width: 50%;
     }
 }
