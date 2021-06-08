@@ -67,13 +67,6 @@ main {
     line-height: 45px;
     letter-spacing: -0.41px;
     color: #1F294A;
-    word-break: break-word;
-    /*
-      hyphens: auto;
-     -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-*/
 }
 
 .list {
@@ -197,11 +190,9 @@ footer {
         margin: 0;
         background-size: 36%, 54%, 42%;
     }
-
     .title {
         margin: 20px 0 15px 0;
     }
-
     main {
         align-items: center;
     }
@@ -209,7 +200,6 @@ footer {
     .ellipse5 {
         top: 80%;
     }
-
     .phone {
         width: 100%;
         height: 100%;
@@ -235,11 +225,9 @@ footer {
     footer {
         display: block;
     }
-
     .ellipse5 {
         top: 90%;
     }
-
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -248,26 +236,26 @@ footer {
         width: 7%;
         height: 7%;
     }
+}
 
-    /*Small devices (landscape phones, 576px and up)*/
-    @media (max-width: 576px) {
-
-        .ellipse {
-            width: 10%;
-            height: 10%;
-        }
-
-        .title {
-            font-size: 30px;
-            line-height: 24px;
-        }
-
-        .list {
-            font-size: 18px;
-            line-height: 18px;
-        }
-
-        .button {
-            width: 50%;
-        }
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    .ellipse {
+        width: 10%;
+        height: 10%;
     }
+
+    .title {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    .list {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .button {
+        width: 50%;
+    }
+}
