@@ -126,6 +126,11 @@ main {
     position: relative;
 }
 
+.phone{
+    width: 100%;
+}
+
+
 .ellipse7 {
     background: #00E9DE;
     position: absolute;
@@ -173,9 +178,19 @@ footer {
 }
 
 .social {}
+ .social-icon{
+        width: 7%;
+        height: 7%;
+    }
+@media  screen and (max-width: 1440px) {
+    /* insert styles here */
+    body {
+        width: 100%;
+        border: 1px solid violet;
+        box-sizing: border-box;
+}
+} 
 
-
-   
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) { 
@@ -183,17 +198,61 @@ footer {
         width: 100%;
         border: 1px solid yellow;
         box-sizing: border-box;
+}
 
-}... }
+}
 
 
 /* Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) { body {
+@media (max-width: 992px) { 
+    body {
         width: 100%;
-        border: 2px solid green;
+        border: 3px solid green;
         box-sizing: border-box;
 
-}... }
+}
+    .picture {
+        margin: 0;
+        background-size: 36%, 54%, 42%;
+    }
+    
+    .phone {
+      border: 1px solid red;
+    height: 60%;
+    }
+    
+    main {
+      align-items: center;  
+    }
+    .title {
+        margin: 20px 0 15px 0 ;
+/*        font-size: 36px;*/
+/*        line-height: 30px;*/
+    }
+    .list{
+/*
+      font-size: 18px;
+    line-height: 20px;
+*/
+    margin-bottom: 20px;  
+    }
+    .button{
+     width: 100%;  
+    }
+    
+    .ellipse{
+         width: 7%;  
+        height: 7%;  
+    }
+    
+    .ellipse5{
+        top: 80%; 
+    }
+    .social-icon{
+        width:7%;
+        height: 7%;
+    }
+    }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) { body {
@@ -201,7 +260,10 @@ footer {
         border: 3px solid red;
         box-sizing: border-box;
 
-}... }
+}
+    main, footer {
+      display: block;  
+    }
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -209,8 +271,9 @@ footer {
 body {
         width: 100%;
         border: 1px solid black;
-        box-sizing: border-box;
-
+    box-sizing: border-box;}
+    
+  
 }
 
 
